@@ -1,0 +1,152 @@
+
+@keyframes my {
+    0% { color: #0af865; }
+    50% { color: #f50505; }
+    100% { color: #f8ec0a; }
+    }
+.text-animation {
+    background:#3d3d3d;
+    font-size:24px;
+    font-weight:bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite;
+    -o-animation: my 700ms infinite;
+    animation: my 700ms infinite;
+    }
+@keyframes ny {
+        0% { color: #0aa5f8; }
+        50% { color: #0ca369; }
+        100% { color: #0a59f8; }
+        }
+.name{
+        background:#3d3d3d;
+        font-size:24px;
+        font-weight:bold;
+        -webkit-animation: ny 700ms infinite;
+        -moz-animation: ny 700ms infinite;
+        -o-animation: ny 700ms infinite;
+        animation: ny 700ms infinite;
+        }
+.quangcao{ 
+    background:#3d3d3d; 
+    font-size:24px; 
+    font-weight:bold; 
+    -webkit-animation: my 700ms infinite; 
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite; 
+    }
+.tuyet{
+    position: absolute;left: 0px;top: 0px;
+}
+.tuyetroi{padding-left:15px;
+    font-size:18px;
+    line-height:24px;
+    position:fixed;
+    color:#ebebeb;
+    user-select:none;
+    z-index:1000;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none;
+    -webkit-touch-callout:none;}
+    body{background-color: darkslategray;}
+    .tuyetroi:hover{cursor:default;}
+.header{
+    background-color: rgb(39, 139, 157);
+    margin: 10px 15px 10px 15px;
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(63, 49, 49)
+}
+body{
+    background-color: rgb(115, 182, 224);
+}
+.doan1{
+    background-color: rgb(254, 254, 254);
+    position: top;
+    color: rgb(220, 111, 16);
+    width: 100%;
+    font-size: 20px;
+    height: 30px;
+}
+.doan1 a{
+    text-decoration: none;
+    color: rgb(38, 113, 154);
+}
+.root>li{
+    list-style: none;
+    float: left;
+    position: relative;
+    display: block;
+}
+.root li a{
+    text-decoration: none;
+    color: rgb(204, 198, 81);
+    padding: 0px 15px 0px 15px;
+    line-height: 50px;
+    display: block;
+}
+.menu_web{
+    font-weight: bold;
+    background-color: rgb(32, 88, 131);
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin: 0px auto;
+}
+.root li a:hover{
+    background-color: burlywood;
+    color: blueviolet;
+}
+.submenu{
+    width: 180px;
+    background-color: cornflowerblue;
+    color: palevioletred;
+    min-height: 80px;
+    display: none;
+    
+}
+.submenu li a{
+    text-transform: none;
+    text-decoration: none;
+    color: rgb(209, 70, 125);
+    display: block;
+    border: 1px rgb(144, 189, 203);
+    line-height: 50px;
+    text-align: 20px;
+}
+.root li:hover .submenu{display: block;
+    background-color: rgb(144, 189, 203);
+    color: rgb(83, 119, 64);
+    transition: ease-in-out 0.30s;
+    position: absolute;
+}
+.submenu li a:hover{
+    background-color: cornflowerblue;
+    color: orange;
+    transform: ease-in-out 0.30s ;
+}
+
+.doan3 table{
+    width: 100%;
+    background-color: rgb(210, 230, 248);
+}
+
+.diachi{
+    text-align: center;
+    background-color: rgba(181, 183, 212, 0.316);
+}
+
+.app{
+    background-color: #599c6f;
+
+}
+.gioithieu{
+    color: #f0f1f2;
+}
+.truong{
+    color: #f0f1f2;
+    font-size: 25px;
+}
